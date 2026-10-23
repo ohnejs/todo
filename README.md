@@ -4,14 +4,15 @@ Lists and tasks for every account, with a Today page and an AI assistant. Built 
 [ohne](https://ohne.dev), free under the MIT licence.
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="screenshots/today-dark.png">
-  <img alt="The Today page with two overdue tasks and three due today" src="screenshots/today-light.png">
+  <source media="(prefers-color-scheme: dark)" srcset="screenshots/readme/today-dark.png">
+  <img alt="The Today page with two overdue tasks and three due today" src="screenshots/readme/today-light.png">
 </picture>
 
 ## Live demo
 
-There is no live demo yet. Run it on your machine: the seed creates the accounts below, with the
-same data a demo would show.
+Try it on [ohne.dev](https://ohne.dev/examples/todo). Sign in with one click as a member or an
+admin, and you get your own copy of the app for 30 minutes, which nobody else sees. To try the
+assistant, connect your own AI key from your ohne.dev account.
 
 ## What it shows
 
@@ -86,9 +87,9 @@ pnpm format --check
 
 ## Upgrading
 
-Bump `ohnejs` in `package.json` and apply the framework's release notes. Then diff
-your copy against the example's newer release, for example `git diff v0.1.0 v0.2.0`. The
-repository's GitHub Releases list what each release changed.
+Bump `ohnejs` in `package.json` and follow the framework's
+[release notes](https://github.com/ohnejs/ohnejs/releases). To pick up later changes to this
+example, compare your copy with this repository.
 
 ## Deploy
 
