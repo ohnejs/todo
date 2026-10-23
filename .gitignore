@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Generated
+.ohne/
+
+# Data
+.data/
+
+# Environment / secrets
+.env
+
+# Local link to the ohne checkout
+.pnpmfile.cjs
+
+# OS
+.DS_Store
+
+# Claude
+.claude/

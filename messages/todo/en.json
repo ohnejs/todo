@@ -1,0 +1,58 @@
+{
+  "lists": {
+    "label": "Lists",
+    "name": { "label": "Name" },
+    "color": { "label": "Color" }
+  },
+  "tasks": {
+    "label": "Tasks",
+    "title": { "label": "Title" },
+    "notes": { "label": "Notes" },
+    "done": { "label": "Done" },
+    "due": { "label": "Due" },
+    "list": { "label": "List" },
+    "priority": {
+      "label": "Priority",
+      "low": "Low",
+      "normal": "Normal",
+      "high": "High"
+    }
+  },
+  "owner": { "label": "Owner" },
+  "roles": {
+    "member": {
+      "label": "Member",
+      "description": "Keeps their own lists and tasks."
+    }
+  },
+  "signup": {
+    "installFirst": "Sign-up opens once the install page has created the first account"
+  },
+  "skills": {
+    "planMyDay": {
+      "title": "Plan my day",
+      "description": "Order what is due and what slipped, and move what will not fit."
+    },
+    "capture": {
+      "title": "Capture",
+      "description": "Turn a line or a brain dump into tasks, filed in your lists."
+    },
+    "rescheduleOverdue": {
+      "title": "Reschedule overdue",
+      "description": "Spread the tasks that slipped over the coming days."
+    },
+    "weeklyReview": {
+      "title": "Weekly review",
+      "description": "See what you finished this week and tidy what is left."
+    }
+  },
+  "today": {
+    "title": "Today",
+    "description": "What is due today, and what slipped.",
+    "newTask": "New task",
+    "overdue": "Overdue",
+    "dueToday": "Due today",
+    "noneOverdue": "Nothing overdue",
+    "noneToday": "Nothing due today"
+  }
+}

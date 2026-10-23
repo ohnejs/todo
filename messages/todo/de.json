@@ -1,0 +1,58 @@
+{
+  "lists": {
+    "label": "Listen",
+    "name": { "label": "Name" },
+    "color": { "label": "Farbe" }
+  },
+  "tasks": {
+    "label": "Aufgaben",
+    "title": { "label": "Titel" },
+    "notes": { "label": "Notizen" },
+    "done": { "label": "Erledigt" },
+    "due": { "label": "Fällig" },
+    "list": { "label": "Liste" },
+    "priority": {
+      "label": "Priorität",
+      "low": "Niedrig",
+      "normal": "Normal",
+      "high": "Hoch"
+    }
+  },
+  "owner": { "label": "Besitzer" },
+  "roles": {
+    "member": {
+      "label": "Mitglied",
+      "description": "Verwaltet eigene Listen und Aufgaben."
+    }
+  },
+  "signup": {
+    "installFirst": "Die Registrierung ist möglich, sobald die Installationsseite das erste Konto angelegt hat"
+  },
+  "skills": {
+    "planMyDay": {
+      "title": "Meinen Tag planen",
+      "description": "Ordnet, was fällig und was liegen geblieben ist, und verschiebt, was nicht passt."
+    },
+    "capture": {
+      "title": "Erfassen",
+      "description": "Macht aus einer Zeile oder einer Gedankenliste Aufgaben in deinen Listen."
+    },
+    "rescheduleOverdue": {
+      "title": "Überfälliges verschieben",
+      "description": "Verteilt liegen gebliebene Aufgaben auf die kommenden Tage."
+    },
+    "weeklyReview": {
+      "title": "Wochenrückblick",
+      "description": "Zeigt, was du diese Woche erledigt hast, und räumt den Rest auf."
+    }
+  },
+  "today": {
+    "title": "Heute",
+    "description": "Was heute fällig ist und was liegen geblieben ist.",
+    "newTask": "Neue Aufgabe",
+    "overdue": "Überfällig",
+    "dueToday": "Heute fällig",
+    "noneOverdue": "Nichts überfällig",
+    "noneToday": "Heute ist nichts fällig"
+  }
+}

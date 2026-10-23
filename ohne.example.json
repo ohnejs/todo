@@ -1,0 +1,78 @@
+{
+  "slug": "todo",
+  "name": "Todo",
+  "summary": "Lists and tasks for every account, with a Today page and an AI assistant.",
+  "description": "A to-do app on ohne: every account signs up, keeps its own lists and tasks, starts the day on a Today page, and asks an AI assistant, in English or German.",
+  "kind": "ohne",
+  "source": "https://github.com/ohnejs/todo",
+  "variants": [
+    {
+      "stack": "ohne",
+      "repo": "https://github.com/ohnejs/todo"
+    }
+  ],
+  "demo": {
+    "mode": "copy",
+    "accounts": [
+      {
+        "label": "Member",
+        "email": "demo@example.com",
+        "password": "ohne-demo"
+      },
+      {
+        "label": "Admin",
+        "email": "admin@example.com",
+        "password": "ohne-demo"
+      }
+    ]
+  },
+  "ai": true,
+  "features": [
+    "database/collections",
+    "api/collections",
+    "auth/authentication",
+    "auth/roles",
+    "dashboard/pages",
+    "dashboard/data",
+    "i18n/messages",
+    "project/boot",
+    "ai/assistant",
+    "ai/skills"
+  ],
+  "languages": ["en", "de"],
+  "screenshots": [
+    {
+      "light": "screenshots/today-light.png",
+      "dark": "screenshots/today-dark.png",
+      "alt": "The Today page with two overdue tasks and three due today"
+    },
+    {
+      "light": "screenshots/tasks-light.png",
+      "dark": "screenshots/tasks-dark.png",
+      "alt": "The tasks table with due days, priorities and lists"
+    }
+  ],
+  "files": [
+    "ohne.config.ts",
+    "collections/_own.ts",
+    "collections/Lists.ts",
+    "collections/Tasks.ts",
+    "collections/Users.ts",
+    "roles/member.ts",
+    "skills/plan-my-day.ts",
+    "skills/capture.ts",
+    "skills/reschedule-overdue.ts",
+    "skills/weekly-review.ts",
+    "api/signup.post.ts",
+    "dashboard/pages/today.ts",
+    "dashboard/components/due.ts",
+    "boot/_seed.ts",
+    "boot/seed.ts",
+    "messages/todo/en.json",
+    "messages/todo/de.json"
+  ],
+  "smoke": ["/auth/install", "/messages/todo/en"],
+  "stage": "alpha",
+  "ohne": "0.4.0",
+  "releasedAt": null
+}

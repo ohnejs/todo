@@ -1,0 +1,5 @@
+{
+  "extends": "ohnejs/tsconfig.node.json",
+  "include": ["**/*.ts", ".ohne/shared/**/*.ts", ".ohne/node/**/*.ts"],
+  "exclude": ["dashboard"]
+}
