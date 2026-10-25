@@ -69,7 +69,10 @@
     "boot/_seed.ts",
     "boot/seed.ts",
     "messages/todo/en.json",
-    "messages/todo/de.json"
+    "messages/todo/de.json",
+    "package.json",
+    "tsconfig.json",
+    ".gitignore"
   ],
   "smoke": ["/auth/install", "/messages/todo/en"],
   "stage": "alpha",
