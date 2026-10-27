@@ -24,9 +24,6 @@ assistant, connect your own AI key from your ohne.dev account.
   [custom capabilities](https://ohne.dev/docs/auth/roles#custom-capabilities).
 - **Sign-up.** `api/signup.post.ts` creates a member and signs them in. See
   [creating accounts](https://ohne.dev/docs/auth/authentication#creating-accounts).
-- **A password rule.** `collections/Users.ts` extends the shipped `Users` collection
-  with a minimum length, so every way of setting a password keeps it. See
-  [adding fields to Users](https://ohne.dev/docs/auth/authentication#adding-fields-to-users).
 - **A role.** `roles/member.ts`, the role sign-up grants. See
   [roles](https://ohne.dev/docs/auth/roles).
 - **A dashboard page.** `dashboard/pages/today.ts`, linked in the sidebar by

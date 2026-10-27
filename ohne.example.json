@@ -57,7 +57,6 @@
     "collections/_own.ts",
     "collections/Lists.ts",
     "collections/Tasks.ts",
-    "collections/Users.ts",
     "roles/member.ts",
     "skills/plan-my-day.ts",
     "skills/capture.ts",

@@ -37,6 +37,7 @@ export default defineHandler(
 
     // Only `email` and `password` come from the body, so nobody can sign up with the `admin` role.
     // `createOrThrow` checks every `Users` rule and answers `422` when one fails.
+    // One of those rules: a password needs at least 8 characters, or what `auth.password.minLength` says.
     // The `password` field stores only a hash, so you pass the plain text here.
     const record = await query('Users').createOrThrow({ email, password, roles: ['member'] });
     await createSession(record.UUID);
