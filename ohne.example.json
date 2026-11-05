@@ -75,6 +75,6 @@
   ],
   "smoke": ["/auth/install", "/messages/todo/en"],
   "stage": "alpha",
-  "ohne": "0.7.0",
+  "ohne": "0.8.0",
   "releasedAt": null
 }
